@@ -13,26 +13,26 @@ class ProductController extends Controller
     function index()
         {
             $products=DB::table("products")->get();
-            return view("product.index",["products"=>$products]);
+            return view("pages.product.index",["products"=>$products]);
         }
     function create()
         {
-            return view('product.create');
+            return view('pages.product.create');
         }
     function store(Request $request)
         {
             echo $request->name;
-            return redirect()->route("products.index")->with('success','Success.');
+            return redirect()->route("pages.products.index")->with('success','Success.');
         }
 
     function show($id)
         {
             $product=Product::find($id);
-            return view("product.show",["product"=>$product]);
+            return view("pages.product.show",["product"=>$product]);
         }
     function edit($id)
         {
-            return view("product.edit");
+            return view("pages.product.edit");
         }
     function update($id,Request $request)
         {
@@ -41,7 +41,7 @@ class ProductController extends Controller
         }
     function confirm($id)
         {
-            return view("product.confirm", ["id"=>$id]);
+            return view("pages.product.confirm", ["id"=>$id]);
         }
     function destroy($id)
         {

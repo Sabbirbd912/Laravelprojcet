@@ -17,4 +17,4 @@ Route::get('/', function () {
 Route::get('/products/{id}/confirm',[ProductController::class,'confirm']);
 Route::resource('products', ProductController::class);
 
-Route::get('/home',[HomeController::class,'index']);
+// Route::get('/pages.home',[HomeController::class,'index']);
