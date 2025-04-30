@@ -16,10 +16,10 @@
 			</li>
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-381-television"></i>
-					<span class="nav-text">Apps</span>
+					<span class="nav-text">Menu Items</span>
 				</a>
 				<ul aria-expanded="false">
-					<li><a href="{{url('/sales/invoices')}}">Profile</a></li>
+					<li><a href="{{url('/sales/invoices')}}">Add Menu</a></li>
 					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
 						<ul aria-expanded="false">
 							<li><a href="./email-compose.html">Compose</a></li>
@@ -43,7 +43,7 @@
 			</li>
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-381-controls-3"></i>
-					<span class="nav-text">Charts</span>
+					<span class="nav-text">Orders Managements</span>
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="./chart-flot.html">Flot</a></li>
@@ -56,7 +56,7 @@
 			</li>
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-381-internet"></i>
-					<span class="nav-text">Bootstrap</span>
+					<span class="nav-text">Reservations</span>
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="./ui-accordion.html">Accordion</a></li>
@@ -80,8 +80,17 @@
 				</ul>
 			</li>
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-network"></i>
+					<span class="nav-text">Table</span>
+				</a>
+				<ul aria-expanded="false">
+					<li><a href="table-bootstrap-basic.html">Bootstrap</a></li>
+					<li><a href="table-datatable-basic.html">Datatable</a></li>
+				</ul>
+			</li>
+			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-381-heart"></i>
-					<span class="nav-text">Plugins</span>
+					<span class="nav-text">Payments</span>
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="./uc-select2.html">Select 2</a></li>
@@ -94,12 +103,12 @@
 			</li>
 			<li><a href="widget-basic.html" class="ai-icon" aria-expanded="false">
 					<i class="flaticon-381-settings-2"></i>
-					<span class="nav-text">Widget</span>
+					<span class="nav-text">Inventory</span>
 				</a>
 			</li>
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-381-notepad"></i>
-					<span class="nav-text">Forms</span>
+					<span class="nav-text">Report Magemnet</span>
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="./form-element.html">Form Elements</a></li>
@@ -110,17 +119,8 @@
 				</ul>
 			</li>
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-network"></i>
-					<span class="nav-text">Table</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="table-bootstrap-basic.html">Bootstrap</a></li>
-					<li><a href="table-datatable-basic.html">Datatable</a></li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-381-layer-1"></i>
-					<span class="nav-text">Pages</span>
+					<span class="nav-text">Customers</span>
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="./page-register.html">Register</a></li>
@@ -136,6 +136,30 @@
 					</li>
 					<li><a href="./page-lock-screen.html">Lock Screen</a></li>
 				</ul>
+			</li>
+			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-layer-1"></i>
+					<span class="nav-text">Uers</span>
+				</a>
+				<ul aria-expanded="false">
+					<li><a href="./page-register.html">Register</a></li>
+					<li><a href="./page-login.html">Login</a></li>
+					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
+						<ul aria-expanded="false">
+							<li><a href="./page-error-400.html">Error 400</a></li>
+							<li><a href="./page-error-403.html">Error 403</a></li>
+							<li><a href="./page-error-404.html">Error 404</a></li>
+							<li><a href="./page-error-500.html">Error 500</a></li>
+							<li><a href="./page-error-503.html">Error 503</a></li>
+						</ul>
+					</li>
+					<li><a href="./page-lock-screen.html">Lock Screen</a></li>
+				</ul>
+			</li>
+			<li><a href="widget-basic.html" class="ai-icon" aria-expanded="false">
+					<i class="flaticon-381-settings-2"></i>
+					<span class="nav-text">Settings</span>
+				</a>
 			</li>
 		</ul>
 	

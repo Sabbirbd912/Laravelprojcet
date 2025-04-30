@@ -528,7 +528,7 @@
     @include("layouts.side_bar")
 
 	<div class="content-body">
-		<div class="container-fluid">
+		<div class="container-fluid" style="background-color:rgba(48, 145, 255, 0.65);">
 
     		@yield("page")
 
