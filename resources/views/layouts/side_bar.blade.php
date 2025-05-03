@@ -3,17 +3,14 @@
         <ul class="metismenu" id="menu">
             <!-- Dashboard -->
             <li>
-                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                <a class="has-arrow ai-icon" href="dashboard" aria-expanded="false">
                     <i class="flaticon-381-networking"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
-                <ul aria-expanded="false">
-                    <li><a href="{{ url('/') }}">Main Dashboard</a></li>
-                    <li><a href="{{ url('analytics') }}">Analytics</a></li>
+                <ul aria-expanded="false" id="dashboard">
+                    <!-- <li><a href="{{ url('/') }}">Main Dashboard</a></li> -->
+                    <li><a href="{{ url('analytics') }}">Status-Board</a></li>
                     <li><a href="{{ url('reviews') }}">Review</a></li>
-                    <li><a href="{{ url('orders') }}">Order</a></li>
-                    <li><a href="{{ url('order-list') }}">Order List</a></li>
-                    <li><a href="{{ url('customers/general') }}">General Customers</a></li>
                 </ul>
             </li>
 
@@ -26,29 +23,8 @@
                 <ul aria-expanded="false">
                     <li><a href="{{ url('sales/invoices') }}">Add Menu</a></li>
 
-                    <li>
-                        <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Email</a>
-                        <ul aria-expanded="false">
-                            <li><a href="{{ url('email/compose') }}">Compose</a></li>
-                            <li><a href="{{ url('email/inbox') }}">Inbox</a></li>
-                            <li><a href="{{ url('email/read') }}">Read</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="{{ url('products') }}">Manage Menu</a></li>
 
-                    <li><a href="{{ url('calendar') }}">Calendar</a></li>
-
-                    <li>
-                        <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Shop</a>
-                        <ul aria-expanded="false">
-                            <li><a href="{{ url('products') }}">Product Grid</a></li>
-                            <li><a href="{{ url('shop/products/list') }}">Product List</a></li>
-                            <li><a href="{{ url('shop/products/detail') }}">Product Details</a></li>
-                            <li><a href="{{ url('shop/orders') }}">Order</a></li>
-                            <li><a href="{{ url('shop/checkout') }}">Checkout</a></li>
-                            <li><a href="{{ url('shop/invoice') }}">Invoice</a></li>
-                            <li><a href="{{ url('shop/customers') }}">Customers</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </li>
 
@@ -59,39 +35,22 @@
                     <span class="nav-text">Orders Management</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="{{ url('charts/flot') }}">Flot</a></li>
-                    <li><a href="{{ url('charts/morris') }}">Morris</a></li>
-                    <li><a href="{{ url('charts/chartjs') }}">ChartJS</a></li>
-                    <li><a href="{{ url('charts/chartist') }}">Chartist</a></li>
-                    <li><a href="{{ url('charts/sparkline') }}">Sparkline</a></li>
-                    <li><a href="{{ url('charts/peity') }}">Peity</a></li>
+                    <li><a href="{{ url('charts/flot') }}">Create Order</a></li>
+                    <li><a href="{{ url('charts/morris') }}">Manage Order</a></li>
+                    <li><a href="{{ url('charts/chartjs') }}">Cancel Order</a></li>
                 </ul>
             </li>
 
             <!-- Reservations -->
             <li>
-                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                <a class="has-arrow ai-icon" href="Reservations" aria-expanded="false">
                     <i class="flaticon-381-internet"></i>
                     <span class="nav-text">Reservations</span>
                 </a>
-                <ul aria-expanded="false">
-                    <li><a href="{{ url('ui/accordion') }}">Accordion</a></li>
-                    <li><a href="{{ url('/') }}">Alert</a></li>
-                    <li><a href="{{ url('ui/badge') }}">Badge</a></li>
-                    <li><a href="{{ url('ui/button') }}">Button</a></li>
-                    <li><a href="{{ url('ui/modal') }}">Modal</a></li>
-                    <li><a href="{{ url('ui/button-group') }}">Button Group</a></li>
-                    <li><a href="{{ url('ui/list-group') }}">List Group</a></li>
-                    <li><a href="{{ url('ui/media-object') }}">Media Object</a></li>
-                    <li><a href="{{ url('ui/card') }}">Cards</a></li>
-                    <li><a href="{{ url('ui/carousel') }}">Carousel</a></li>
-                    <li><a href="{{ url('ui/dropdown') }}">Dropdown</a></li>
-                    <li><a href="{{ url('ui/popover') }}">Popover</a></li>
-                    <li><a href="{{ url('ui/progressbar') }}">Progressbar</a></li>
-                    <li><a href="{{ url('ui/tab') }}">Tab</a></li>
-                    <li><a href="{{ url('ui/typography') }}">Typography</a></li>
-                    <li><a href="{{ url('ui/pagination') }}">Pagination</a></li>
-                    <li><a href="{{ url('ui/grid') }}">Grid</a></li>
+                <ul aria-expanded="false" id="reservations">
+                    <li><a href="{{ url('ui/accordion') }}">All Reserved</a></li>
+                    <li><a href="{{ url('ui/badge') }}">Manage Reserveation</a></li>
+                    <li><a href="{{ url('ui/button') }}">Cancel Reserveation</a></li>
                 </ul>
             </li>
 
@@ -102,8 +61,8 @@
                     <span class="nav-text">Tables</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="{{ url('table/bootstrap') }}">Bootstrap</a></li>
-                    <li><a href="{{ url('table/datatable') }}">Datatable</a></li>
+                    <li><a href="{{ url('table/bootstrap') }}">Create Table</a></li>
+                    <li><a href="{{ url('table/datatable') }}">Manage Table</a></li>
                 </ul>
             </li>
 
@@ -114,12 +73,9 @@
                     <span class="nav-text">Payments</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="{{ url('uc/select2') }}">Select2</a></li>
-                    <li><a href="{{ url('uc/nestable') }}">Nestable</a></li>
-                    <li><a href="{{ url('uc/noui-slider') }}">Noui Slider</a></li>
-                    <li><a href="{{ url('uc/sweetalert') }}">Sweet Alert</a></li>
-                    <li><a href="{{ url('uc/toastr') }}">Toastr</a></li>
-                    <li><a href="{{ url('map/jqvmap') }}">Jqv Map</a></li>
+                    <li><a href="{{ url('uc/select2') }}">Create Paymenment</a></li>
+                    <li><a href="{{ url('uc/nestable') }}">Payments Method</a></li>
+                    <li><a href="{{ url('uc/noui-slider') }}">All Payments</a></li>
                 </ul>
             </li>
 
@@ -138,11 +94,8 @@
                     <span class="nav-text">Report Management</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="{{ url('form/element') }}">Form Elements</a></li>
-                    <li><a href="{{ url('form/wizard') }}">Wizard</a></li>
-                    <li><a href="{{ url('form/summernote') }}">Summernote</a></li>
-                    <li><a href="{{ url('form/pickers') }}">Pickers</a></li>
-                    <li><a href="{{ url('form/validation') }}">Jquery Validate</a></li>
+                    <li><a href="{{ url('form/element') }}">Create Report</a></li>
+                    <li><a href="{{ url('form/wizard') }}">Manage Report</a></li>
                 </ul>
             </li>
 
@@ -154,8 +107,8 @@
                 </a>
                 <ul aria-expanded="false">
                     <li><a href="{{ url('auth/register') }}">Register</a></li>
-                    <li><a href="{{ url('auth/login') }}">Login</a></li>
-                    <li><a href="{{ url('auth/lock') }}">Lock Screen</a></li>
+                    <li><a href="{{ url('auth/login') }}">Admin Login</a></li>
+                    <li><a href="{{ url('auth/lock') }}">User Login</a></li>
                     <li>
                         <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Error</a>
                         <ul aria-expanded="false">

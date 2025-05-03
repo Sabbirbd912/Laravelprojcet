@@ -61,7 +61,7 @@
         <div class="table-responsive scrollbar mt-4 fs--1">
             <table class="table table-striped border-bottom">
                 <thead class="light">
-                    <tr class="bg-primary text-white dark__bg-1000">
+                    <tr class="bg-info text-white dark__bg-1000">
                         <th class="border-0">Products</th>
                         <th class="border-0 text-center">Quantity</th>
                         <th class="border-0 text-end">Rate</th>

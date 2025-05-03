@@ -11708,7 +11708,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
       display: block;
       padding: 0.625rem 1.875rem;
       outline-width: 0;
-      color: #7e7e7e;
+      color: floralwhite;
       text-decoration: none; }
       @media only screen and (max-width: 767px) {
         .deznav .metismenu a {
