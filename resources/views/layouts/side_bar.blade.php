@@ -1,176 +1,192 @@
 <div class="deznav">
-	<div class="deznav-scroll">
-		<ul class="metismenu" id="menu">
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-networking"></i>
-					<span class="nav-text">Dashboard</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="{{url('/')}}">Dashboard</a></li>
-					<li><a href="page-analytics.html">Analytics</a></li>
-					<li><a href="page-review.html">Review</a></li>
-					<li><a href="page-order.html">Order</a></li>
-					<li><a href="page-order-list.html">Order List</a></li>
-					<li><a href="page-general-customers.html">General Customers</a></li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-television"></i>
-					<span class="nav-text">Menu Items</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="{{url('/sales/invoices')}}">Add Menu</a></li>
-					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
-						<ul aria-expanded="false">
-							<li><a href="./email-compose.html">Compose</a></li>
-							<li><a href="./email-inbox.html">Inbox</a></li>
-							<li><a href="./email-read.html">Read</a></li>
-						</ul>
-					</li>
-					<li><a href="{{url('products')}}">Calendar</a></li>
-					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Shop</a>
-						<ul aria-expanded="false">
-							<li><a href="./ecom-product-grid.html">Product Grid</a></li>
-							<li><a href="./ecom-product-list.html">Product List</a></li>
-							<li><a href="./ecom-product-detail.html">Product Details</a></li>
-							<li><a href="./ecom-product-order.html">Order</a></li>
-							<li><a href="./ecom-checkout.html">Checkout</a></li>
-							<li><a href="./ecom-invoice.html">Invoice</a></li>
-							<li><a href="./ecom-customers.html">Customers</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-controls-3"></i>
-					<span class="nav-text">Orders Managements</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="./chart-flot.html">Flot</a></li>
-					<li><a href="./chart-morris.html">Morris</a></li>
-					<li><a href="./chart-chartjs.html">Chartjs</a></li>
-					<li><a href="./chart-chartist.html">Chartist</a></li>
-					<li><a href="./chart-sparkline.html">Sparkline</a></li>
-					<li><a href="./chart-peity.html">Peity</a></li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-internet"></i>
-					<span class="nav-text">Reservations</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="./ui-accordion.html">Accordion</a></li>
-					<li><a href="{{url('/')}}">Alert</a></li>
-					<li><a href="./ui-badge.html">Badge</a></li>
-					<li><a href="./ui-button.html">Button</a></li>
-					<li><a href="./ui-modal.html">Modal</a></li>
-					<li><a href="./ui-button-group.html">Button Group</a></li>
-					<li><a href="./ui-list-group.html">List Group</a></li>
-					<li><a href="./ui-media-object.html">Media Object</a></li>
-					<li><a href="./ui-card.html">Cards</a></li>
-					<li><a href="./ui-carousel.html">Carousel</a></li>
-					<li><a href="./ui-dropdown.html">Dropdown</a></li>
-					<li><a href="./ui-popover.html">Popover</a></li>
-					<li><a href="./ui-progressbar.html">Progressbar</a></li>
-					<li><a href="./ui-tab.html">Tab</a></li>
-					<li><a href="./ui-typography.html">Typography</a></li>
-					<li><a href="./ui-pagination.html">Pagination</a></li>
-					<li><a href="./ui-grid.html">Grid</a></li>
+    <div class="deznav-scroll">
+        <ul class="metismenu" id="menu">
+            <!-- Dashboard -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-networking"></i>
+                    <span class="nav-text">Dashboard</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('/') }}">Main Dashboard</a></li>
+                    <li><a href="{{ url('analytics') }}">Analytics</a></li>
+                    <li><a href="{{ url('reviews') }}">Review</a></li>
+                    <li><a href="{{ url('orders') }}">Order</a></li>
+                    <li><a href="{{ url('order-list') }}">Order List</a></li>
+                    <li><a href="{{ url('customers/general') }}">General Customers</a></li>
+                </ul>
+            </li>
 
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-network"></i>
-					<span class="nav-text">Table</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="table-bootstrap-basic.html">Bootstrap</a></li>
-					<li><a href="table-datatable-basic.html">Datatable</a></li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-heart"></i>
-					<span class="nav-text">Payments</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="./uc-select2.html">Select 2</a></li>
-					<li><a href="./uc-nestable.html">Nestedable</a></li>
-					<li><a href="./uc-noui-slider.html">Noui Slider</a></li>
-					<li><a href="./uc-sweetalert.html">Sweet Alert</a></li>
-					<li><a href="./uc-toastr.html">Toastr</a></li>
-					<li><a href="./map-jqvmap.html">Jqv Map</a></li>
-				</ul>
-			</li>
-			<li><a href="widget-basic.html" class="ai-icon" aria-expanded="false">
-					<i class="flaticon-381-settings-2"></i>
-					<span class="nav-text">Inventory</span>
-				</a>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-notepad"></i>
-					<span class="nav-text">Report Magemnet</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="./form-element.html">Form Elements</a></li>
-					<li><a href="./form-wizard.html">Wizard</a></li>
-					<li><a href="./form-editor-summernote.html">Summernote</a></li>
-					<li><a href="form-pickers.html">Pickers</a></li>
-					<li><a href="form-validation-jquery.html">Jquery Validate</a></li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-layer-1"></i>
-					<span class="nav-text">Customers</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="./page-register.html">Register</a></li>
-					<li><a href="./page-login.html">Login</a></li>
-					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
-						<ul aria-expanded="false">
-							<li><a href="./page-error-400.html">Error 400</a></li>
-							<li><a href="./page-error-403.html">Error 403</a></li>
-							<li><a href="./page-error-404.html">Error 404</a></li>
-							<li><a href="./page-error-500.html">Error 500</a></li>
-							<li><a href="./page-error-503.html">Error 503</a></li>
-						</ul>
-					</li>
-					<li><a href="./page-lock-screen.html">Lock Screen</a></li>
-				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-					<i class="flaticon-381-layer-1"></i>
-					<span class="nav-text">Uers</span>
-				</a>
-				<ul aria-expanded="false">
-					<li><a href="./page-register.html">Register</a></li>
-					<li><a href="./page-login.html">Login</a></li>
-					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
-						<ul aria-expanded="false">
-							<li><a href="./page-error-400.html">Error 400</a></li>
-							<li><a href="./page-error-403.html">Error 403</a></li>
-							<li><a href="./page-error-404.html">Error 404</a></li>
-							<li><a href="./page-error-500.html">Error 500</a></li>
-							<li><a href="./page-error-503.html">Error 503</a></li>
-						</ul>
-					</li>
-					<li><a href="./page-lock-screen.html">Lock Screen</a></li>
-				</ul>
-			</li>
-			<li><a href="widget-basic.html" class="ai-icon" aria-expanded="false">
-					<i class="flaticon-381-settings-2"></i>
-					<span class="nav-text">Settings</span>
-				</a>
-			</li>
-		</ul>
-	
-		<div class="add-menu-sidebar">
-			<img src="images/icon1.png" alt=""/>
-			<p>Organize your menus through button bellow</p>
-			<a href="javascript:void(0);" class="btn btn-primary btn-block light">+ Add Menus</a>
-		</div>
-		<div class="copyright">
-			<p><strong>Eatio - Restaurant Admin Dashboard</strong> © 2020 All Rights Reserved</p>
-			
-		</div>
-	</div>
+            <!-- Menu Items -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-television"></i>
+                    <span class="nav-text">Menu Items</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('sales/invoices') }}">Add Menu</a></li>
+
+                    <li>
+                        <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Email</a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{ url('email/compose') }}">Compose</a></li>
+                            <li><a href="{{ url('email/inbox') }}">Inbox</a></li>
+                            <li><a href="{{ url('email/read') }}">Read</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="{{ url('calendar') }}">Calendar</a></li>
+
+                    <li>
+                        <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Shop</a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{ url('products') }}">Product Grid</a></li>
+                            <li><a href="{{ url('shop/products/list') }}">Product List</a></li>
+                            <li><a href="{{ url('shop/products/detail') }}">Product Details</a></li>
+                            <li><a href="{{ url('shop/orders') }}">Order</a></li>
+                            <li><a href="{{ url('shop/checkout') }}">Checkout</a></li>
+                            <li><a href="{{ url('shop/invoice') }}">Invoice</a></li>
+                            <li><a href="{{ url('shop/customers') }}">Customers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Orders Management -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-controls-3"></i>
+                    <span class="nav-text">Orders Management</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('charts/flot') }}">Flot</a></li>
+                    <li><a href="{{ url('charts/morris') }}">Morris</a></li>
+                    <li><a href="{{ url('charts/chartjs') }}">ChartJS</a></li>
+                    <li><a href="{{ url('charts/chartist') }}">Chartist</a></li>
+                    <li><a href="{{ url('charts/sparkline') }}">Sparkline</a></li>
+                    <li><a href="{{ url('charts/peity') }}">Peity</a></li>
+                </ul>
+            </li>
+
+            <!-- Reservations -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-internet"></i>
+                    <span class="nav-text">Reservations</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('ui/accordion') }}">Accordion</a></li>
+                    <li><a href="{{ url('/') }}">Alert</a></li>
+                    <li><a href="{{ url('ui/badge') }}">Badge</a></li>
+                    <li><a href="{{ url('ui/button') }}">Button</a></li>
+                    <li><a href="{{ url('ui/modal') }}">Modal</a></li>
+                    <li><a href="{{ url('ui/button-group') }}">Button Group</a></li>
+                    <li><a href="{{ url('ui/list-group') }}">List Group</a></li>
+                    <li><a href="{{ url('ui/media-object') }}">Media Object</a></li>
+                    <li><a href="{{ url('ui/card') }}">Cards</a></li>
+                    <li><a href="{{ url('ui/carousel') }}">Carousel</a></li>
+                    <li><a href="{{ url('ui/dropdown') }}">Dropdown</a></li>
+                    <li><a href="{{ url('ui/popover') }}">Popover</a></li>
+                    <li><a href="{{ url('ui/progressbar') }}">Progressbar</a></li>
+                    <li><a href="{{ url('ui/tab') }}">Tab</a></li>
+                    <li><a href="{{ url('ui/typography') }}">Typography</a></li>
+                    <li><a href="{{ url('ui/pagination') }}">Pagination</a></li>
+                    <li><a href="{{ url('ui/grid') }}">Grid</a></li>
+                </ul>
+            </li>
+
+            <!-- Table -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-network"></i>
+                    <span class="nav-text">Tables</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('table/bootstrap') }}">Bootstrap</a></li>
+                    <li><a href="{{ url('table/datatable') }}">Datatable</a></li>
+                </ul>
+            </li>
+
+            <!-- Payments -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-heart"></i>
+                    <span class="nav-text">Payments</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('uc/select2') }}">Select2</a></li>
+                    <li><a href="{{ url('uc/nestable') }}">Nestable</a></li>
+                    <li><a href="{{ url('uc/noui-slider') }}">Noui Slider</a></li>
+                    <li><a href="{{ url('uc/sweetalert') }}">Sweet Alert</a></li>
+                    <li><a href="{{ url('uc/toastr') }}">Toastr</a></li>
+                    <li><a href="{{ url('map/jqvmap') }}">Jqv Map</a></li>
+                </ul>
+            </li>
+
+            <!-- Inventory -->
+            <li>
+                <a href="{{ url('inventory') }}" class="ai-icon" aria-expanded="false">
+                    <i class="flaticon-381-settings-2"></i>
+                    <span class="nav-text">Inventory</span>
+                </a>
+            </li>
+
+            <!-- Report Management -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-notepad"></i>
+                    <span class="nav-text">Report Management</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('form/element') }}">Form Elements</a></li>
+                    <li><a href="{{ url('form/wizard') }}">Wizard</a></li>
+                    <li><a href="{{ url('form/summernote') }}">Summernote</a></li>
+                    <li><a href="{{ url('form/pickers') }}">Pickers</a></li>
+                    <li><a href="{{ url('form/validation') }}">Jquery Validate</a></li>
+                </ul>
+            </li>
+
+            <!-- Users -->
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-layer-1"></i>
+                    <span class="nav-text">Users</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('auth/register') }}">Register</a></li>
+                    <li><a href="{{ url('auth/login') }}">Login</a></li>
+                    <li><a href="{{ url('auth/lock') }}">Lock Screen</a></li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Error</a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{ url('errors/400') }}">Error 400</a></li>
+                            <li><a href="{{ url('errors/403') }}">Error 403</a></li>
+                            <li><a href="{{ url('errors/404') }}">Error 404</a></li>
+                            <li><a href="{{ url('errors/500') }}">Error 500</a></li>
+                            <li><a href="{{ url('errors/503') }}">Error 503</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Settings -->
+            <li>
+                <a href="{{ url('settings') }}" class="ai-icon" aria-expanded="false">
+                    <i class="flaticon-381-settings-2"></i>
+                    <span class="nav-text">Settings</span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Sidebar Add-Menu -->
+        <div class="add-menu-sidebar">
+            <img src="{{ asset('images/icon1.png') }}" alt="" />
+            <p>Organize your menus through the button below</p>
+            <a href="javascript:void(0);" class="btn btn-primary btn-block light">+ Add Menus</a>
+        </div>
+
+        <div class="copyright">
+            <p><strong>Eatio - Restaurant Admin Dashboard</strong> © 2020 All Rights Reserved</p>
+        </div>
+    </div>
 </div>

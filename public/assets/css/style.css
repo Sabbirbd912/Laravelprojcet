@@ -11949,7 +11949,8 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li > a {
     font-size: 18px;
     padding: 20px 50px;
-    color: #969ba0;
+    /* Font Color of Side-bar Menu */
+    color: white;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;
@@ -11959,7 +11960,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
         padding: 15px 25px;
         font-size: 16px; } }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li > a i {
-      color: #969ba0; }
+      color: white; }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li > a:before {
       content: "";
       height: 100%;
@@ -11973,8 +11974,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       transition: all 0.5s;
       border-radius: 0 0.375rem 0.375rem 0; }
   [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a {
-    background: #f4f6fd;
-    color: #2f4cdd; }
+    background: black;
+    /* Side Bar Click Color Changer-------------------------------- */
+    color: yellow; }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a i {
       color: #2f4cdd; }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a:before {

@@ -32,7 +32,7 @@
     </div>
     <div class="row">
         <div class="col-xl-3 col-xxl-3 col-lg-6 col-md-6 col-sm-6">
-            <div class="widget-stat card">
+            <div class="widget-stat card" style="background-color:#01B9CD; background: linear-gradient(to right,#0AB3CC, #7CE475);">
                 <div class="card-body p-4">
                     <div class="media ai-icon">
                         <span class="mr-3 bgl-primary text-primary">
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="col-xl-3 col-xxl-3 col-lg-6 col-md-6 col-sm-6">
-            <div class="widget-stat card">
+            <div class="widget-stat card" style="background-color:#FF5F8A; background: linear-gradient(to right,rgb(228, 152, 117),#FF5F8A);">
                 <div class="card-body p-4">
                     <div class="media ai-icon">
                         <span class="mr-3 bgl-primary text-primary">
@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="col-xl-3 col-xxl-3 col-lg-6 col-md-6 col-sm-6">
-            <div class="widget-stat card">
+            <div class="widget-stat card" style="background: linear-gradient(to right,rgb(156, 95, 255), #feb47b);">
                 <div class="card-body p-4">
                     <div class="media ai-icon">
                         <span class="mr-3 bgl-primary text-primary">
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="col-xl-3 col-xxl-3 col-lg-6 col-md-6 col-sm-6">
-            <div class="widget-stat card">
+            <div class="widget-stat card" style="background: linear-gradient(to right,rgb(95, 255, 220),rgb(234, 254, 123))">
                 <div class="card-body p-4">
                     <div class="media ai-icon">
                         <span class="mr-3 bgl-primary text-primary">
