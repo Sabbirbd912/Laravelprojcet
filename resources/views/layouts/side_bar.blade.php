@@ -75,16 +75,20 @@
                 <ul aria-expanded="false">
                     <li><a href="{{ url('uc/select2') }}">Create Paymenment</a></li>
                     <li><a href="{{ url('uc/nestable') }}">Payments Method</a></li>
-                    <li><a href="{{ url('uc/noui-slider') }}">All Payments</a></li>
+                    <li><a href="{{ url('uc/noui-slider') }}">Payments Management</a></li>
                 </ul>
             </li>
 
             <!-- Inventory -->
             <li>
-                <a href="{{ url('inventory') }}" class="ai-icon" aria-expanded="false">
+                <a href="{{ url('inventory') }}" class="has-arrow ai-icon" aria-expanded="false">
                     <i class="flaticon-381-settings-2"></i>
                     <span class="nav-text">Inventory</span>
                 </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ url('form/element') }}">Add Raw-Material</a></li>
+                    <li><a href="{{ url('form/wizard') }}">Manage Raw-Material</a></li>
+                </ul>
             </li>
 
             <!-- Report Management -->
