@@ -137,7 +137,7 @@
 
         <!-- Sidebar Add-Menu -->
         <div class="add-menu-sidebar">
-            <img src="{{ asset('images/icon1.png') }}" alt="" />
+            <img src="{{asset('assets/images/icon1.png') }}" alt="" />
             <p>Organize your menus through the button below</p>
             <a href="javascript:void(0);" class="btn btn-primary btn-block light">+ Add Menus</a>
         </div>
