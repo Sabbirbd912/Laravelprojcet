@@ -6,18 +6,6 @@
 			<img class="logo-abbr" src="{{asset('assets/images/logo.png')}}" alt="">
 			<img class="logo-compact" src="{{asset('assets/images/logo-text.png')}}" alt="">
 			<img class="brand-title" src="{{asset('assets/images/logo-text.png')}}" alt="">
-			<!-- <span style="
-			display: flex;
-			margin-top: -2;
-			padding: 0;
-			align-items: center;
-			justify-content: center;
-			font-wight:bold;
-			color: yellowgreen;
-			font-size: 1.5rem;
-			">
-			Admin-Panel
-		</span> -->
 		</a>
 
 		<div class="nav-control">
