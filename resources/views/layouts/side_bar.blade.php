@@ -21,7 +21,7 @@
                     <span class="nav-text">Menu Items</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="{{ url('sales/invoices') }}">Add Menu</a></li>
+                    <li><a href="{{ url('products') }}">Add Menu</a></li>
 
                     <li><a href="{{ url('products') }}">Manage Menu</a></li>
 
@@ -35,9 +35,9 @@
                     <span class="nav-text">Orders Management</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="{{ url('charts/flot') }}">Create Order</a></li>
-                    <li><a href="{{ url('charts/morris') }}">Manage Order</a></li>
-                    <li><a href="{{ url('charts/chartjs') }}">Cancel Order</a></li>
+                    <li><a href="{{ url('sales/invoices') }}">Create Order</a></li>
+                    <li><a href="{{ url('sales/invoices') }}">Manage Order</a></li>
+                    <li><a href="{{ url('sales/invoices') }}">Cancel Order</a></li>
                 </ul>
             </li>
 

@@ -17,7 +17,7 @@
             <div class="col-sm-6 text-sm-start">
             <img src='<?=asset("/img")?>/<?=$company->logo?>' width='100' /> </div>
             <div class="col text-sm-end mt-3 mt-sm-0">
-                <h2 class="mb-3">Invoice</h2>
+                <h2 class="mb-3">Create Order</h2>
                 <h5><?=$company->name?></h5>
                 <p class="fs--1 mb-0"><br /><?=$company->street_address?><br /><?=$company->area?>, <?=$company->city?> </p>
             </div>
@@ -27,7 +27,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col">
-                <h6 class="text-500">Invoice to</h6>
+                <h6 class="text-500">Order to</h6>
                 <h5>
                  
                   <select id="customer_id" class="form-select">
@@ -36,7 +36,7 @@
                    @endforeach
                 </select>
                 </h5>
-                <p class="fs--1">1954 Bloor Street West<br />Torronto ON, M6P 3K9<br />Canada</p>
+                <p class="fs--1">91/4 Us Street West<br />Sydny ON, M6P 3K9<br />Canada</p>
                 <p class="fs--1"><a href="mailto:example@gmail.com">example@gmail.com</a><br /><a
                         href="tel:444466667777">+4444-6666-7777</a></p>
             </div>
@@ -45,11 +45,11 @@
                     <table class="table table-sm table-borderless fs--1">
                         <tbody>
                             <tr>
-                                <th class="text-sm-end">Invoice No:</th>
+                                <th class="text-sm-end">Order No:</th>
                                 <td>3434</td>
                             </tr>                          
                             <tr>
-                                <th class="text-sm-end">Invoice Date:</th>
+                                <th class="text-sm-end">Order Date:</th>
                                 <td id="date"><?=date("d-M-Y")?></td>
                             </tr>
                                                       
@@ -61,8 +61,8 @@
         <div class="table-responsive scrollbar mt-4 fs--1">
             <table class="table table-striped border-bottom">
                 <thead class="light">
-                    <tr class="bg-info text-white dark__bg-1000">
-                        <th class="border-0">Products</th>
+                    <tr class="bg-success bg-opacity-25 text-white dark__bg-1000">
+                        <th class="border-0">Foods</th>
                         <th class="border-0 text-center">Quantity</th>
                         <th class="border-0 text-end">Rate</th>
                         <th class="border-0 text-end">Amount</th>

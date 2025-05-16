@@ -24,3 +24,13 @@ Route::get("/sales/invoices",[SalesInvoiceController::class,'index']);
 
 
 // Route::get('/pages.home',[HomeController::class,'index']);
+
+// Optional: Quick DB connection check
+Route::get('/db-check', function () {
+    try {
+        \DB::connection()->getPdo();
+        return "✅ Database connected: " . \DB::connection()->getDatabaseName();
+    } catch (\Exception $e) {
+        return "❌ Could not connect: " . $e->getMessage();
+    }
+});
