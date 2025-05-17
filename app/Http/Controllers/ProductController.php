@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Pagination\Paginator;
 use App\Models\Product;
 use App\Libraries\Core\File;
 use App\Models\ProductSection;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Pagination\Paginator;
+
 
 class ProductController extends Controller
 {
@@ -24,7 +25,7 @@ class ProductController extends Controller
         {
             $product=new Product();
             $product->name=$request->name;
-            $product->offer_price=100;
+            $product->offer_price=$request->offer_price;
             $product->manufacturer_id=1;
             $product->regular_price=1;
             $product->description="Na";       

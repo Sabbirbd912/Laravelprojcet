@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Sales\SalesInvoiceController;
+use App\Http\Controllers\TableController;
 //default route
 // Route::get('/', function () {
 //     return view('welcome');
@@ -15,8 +16,11 @@ Route::get('/', function () {
 
 
 //CRUD route
-Route::get('/products/{id}/confirm',[ProductController::class,'confirm']);
 Route::resource('products', ProductController::class);
+Route::get('/products/{id}/confirm',[ProductController::class,'confirm']);
+
+Route::resource('tables', TableController::class);
+Route::get('/tables/{id}/confirm',[TableController::class,'confirm']);
 
 
 //Invoice Route

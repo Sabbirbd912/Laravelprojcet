@@ -62,7 +62,7 @@
                 </a>
                 <ul aria-expanded="false">
                     <li><a href="{{ url('table/bootstrap') }}">Create Table</a></li>
-                    <li><a href="{{ url('table/datatable') }}">Manage Table</a></li>
+                    <li><a href="{{ url('tables') }}">Manage Table</a></li>
                 </ul>
             </li>
 

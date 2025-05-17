@@ -1,16 +1,19 @@
 @extends("layouts.master")
 
 @section("page")
-<form action="{{url('products')}}" method="post" enctype="multipart/form-data">
+<form action="{{url('tables')}}" method="post" enctype="multipart/form-data">
   @csrf
   Name<br>
   <input type="text" name="name" />
   <br>
-  Price <br>
-  <input type="number" name="offer_price"/>
+  Status <br>
+  <input type="number" name="status"/>
   <br>
   Photo<br>
   <input type="file" name="photo" />
+  <br>
+  Seats <br>
+    <input type="number" name="seats"/>
   <br>
   <input type="submit" value="Save" />
 </form>
